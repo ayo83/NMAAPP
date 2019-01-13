@@ -1,0 +1,39 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+  <div class="container">
+    <a routerLink="/" class="navbar-brand"><strong>NMR APP</strong></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMain">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a routerLink="/dashboard" class="nav-link">Dashboard</a>
+        </li>
+        <li class="nav-item">
+            <a routerLink="/login" class="nav-link">Login</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/register" class="nav-link">Register</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/movies" class="nav-link">Movies</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/movies/upcoming" class="nav-link">Upcoming Movies</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/movies/showtime" class="nav-link">Movies Showtime</a>
+          </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+              <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder=" Find any Nigerian Movie and Cenima Show Time"
+                  aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+              </form>
+            </li>
+      </ul>
+    </div>
+  </div>
+</nav>
